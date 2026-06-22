@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jarvis</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="startup">
+<h1>JARVIS</h1>
+<p>Awaiting Voice Command...</p>
+</div>
+
+<div id="loading" style="display:none;">
+<h1>IMPORTING PREFERENCES</h1>
+
+<div class="loader">
+<div class="bar"></div>
+</div>
+
+<p id="percent">0%</p>
+</div>
+
+<div id="online" style="display:none;">
+<h1>JARVIS ONLINE</h1>
+<p>Listening...</p>
+</div>
+
+<div id="movieTitle" style="display:none;">
+<h1 id="typing"></h1>
+</div>
+
+<video id="movie" style="display:none;" controls>
+<source src="movie.mp4" type="video/mp4">
+</video>
+
+<script src="script.js"></script>
+
+</body>
+</html>
